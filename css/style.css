@@ -1,0 +1,80 @@
+#footer {
+    background-image: url("../images/spicy11.png"); /* replace with your own image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.5); /* set a transparent black background */
+    padding: 50px 0;
+}
+
+@media (max-width: 767px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  
+  .col-md-4 {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+}
+
+#footer p {
+    color: #fff; /* set the text color to white */
+}
+
+.social-icon li a {
+    color: #fff; /* set the social icon color to white */
+}
+
+.social-icon li a:hover {
+    color: #ff9900; /* set the social icon hover color */
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .card p {
+    font-size: 18px;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #006080;
+  }
+  
